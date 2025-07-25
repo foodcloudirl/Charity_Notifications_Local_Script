@@ -6,7 +6,7 @@ from datetime import datetime
 # Have error handling if no file there
 
 # OneSignal credentials
-API_KEY = "MzMxYjZiZmMtZjY3MC00YWZkLTk2NmYtODNhYjcxZWUyNmM0"  
+API_KEY = ""  
 APP_ID = "a338bb1a-ad03-48ae-9f14-aa6582380430"   
 
 url = "https://onesignal.com/api/v1/notifications"
