@@ -17,7 +17,9 @@ headers = {
 }
 
 # change file path to todays date naming convention for auto-mation
-file_path = "Irish_Food_Recall_msg.csv"
+
+#file_path = "Tesco UK Exceptions Aug 1st - Upload Sheet FS Closures - Messages.csv"
+file_path = input("Name of csv: (Format is [type, data, message], do not have commas in message as this will cause errors)")
 
 # Try catch block to handle any errors which could happen during automation
 try:
